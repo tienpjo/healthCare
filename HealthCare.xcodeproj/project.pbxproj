@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6607225449B82C9768827BC4 /* libPods-HealthCare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DDA630A62A9E2B0A34A8CD /* libPods-HealthCare.a */; };
 		E589FDD32AA23C9B00AF2E7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E589FDD22AA23C9B00AF2E7E /* AppDelegate.swift */; };
 		E589FDD52AA23C9B00AF2E7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E589FDD42AA23C9B00AF2E7E /* SceneDelegate.swift */; };
-		E589FDD72AA23C9B00AF2E7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E589FDD62AA23C9B00AF2E7E /* ViewController.swift */; };
-		E589FDDA2AA23C9B00AF2E7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E589FDD82AA23C9B00AF2E7E /* Main.storyboard */; };
 		E589FDDC2AA23C9C00AF2E7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E589FDDB2AA23C9C00AF2E7E /* Assets.xcassets */; };
 		E589FDDF2AA23C9C00AF2E7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E589FDDD2AA23C9C00AF2E7E /* LaunchScreen.storyboard */; };
+		E589FDEB2AA2433900AF2E7E /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E589FDEA2AA2433900AF2E7E /* SignInViewController.swift */; };
+		E589FDED2AA243C200AF2E7E /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E589FDEC2AA243C200AF2E7E /* SignInView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32DDA630A62A9E2B0A34A8CD /* libPods-HealthCare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HealthCare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FE5B337E346BB28373942D3 /* Pods-HealthCare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthCare.release.xcconfig"; path = "Target Support Files/Pods-HealthCare/Pods-HealthCare.release.xcconfig"; sourceTree = "<group>"; };
 		E589FDCF2AA23C9B00AF2E7E /* HealthCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E589FDD22AA23C9B00AF2E7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E589FDD42AA23C9B00AF2E7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E589FDD62AA23C9B00AF2E7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E589FDD92AA23C9B00AF2E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E589FDDB2AA23C9C00AF2E7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E589FDDE2AA23C9C00AF2E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E589FDE02AA23C9C00AF2E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E589FDEA2AA2433900AF2E7E /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		E589FDEC2AA243C200AF2E7E /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		F79EECC1C8898AE765A6D039 /* Pods-HealthCare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthCare.debug.xcconfig"; path = "Target Support Files/Pods-HealthCare/Pods-HealthCare.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6607225449B82C9768827BC4 /* libPods-HealthCare.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6666AB0D28DC0AFCC52217CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F79EECC1C8898AE765A6D039 /* Pods-HealthCare.debug.xcconfig */,
+				6FE5B337E346BB28373942D3 /* Pods-HealthCare.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9A2F3118119EFBD30A8C3E66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32DDA630A62A9E2B0A34A8CD /* libPods-HealthCare.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E589FDC62AA23C9B00AF2E7E = {
 			isa = PBXGroup;
 			children = (
 				E589FDD12AA23C9B00AF2E7E /* HealthCare */,
 				E589FDD02AA23C9B00AF2E7E /* Products */,
+				6666AB0D28DC0AFCC52217CD /* Pods */,
+				9A2F3118119EFBD30A8C3E66 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +80,63 @@
 		E589FDD12AA23C9B00AF2E7E /* HealthCare */ = {
 			isa = PBXGroup;
 			children = (
-				E589FDD22AA23C9B00AF2E7E /* AppDelegate.swift */,
-				E589FDD42AA23C9B00AF2E7E /* SceneDelegate.swift */,
-				E589FDD62AA23C9B00AF2E7E /* ViewController.swift */,
-				E589FDD82AA23C9B00AF2E7E /* Main.storyboard */,
-				E589FDDB2AA23C9C00AF2E7E /* Assets.xcassets */,
-				E589FDDD2AA23C9C00AF2E7E /* LaunchScreen.storyboard */,
-				E589FDE02AA23C9C00AF2E7E /* Info.plist */,
+				E589FDEE2AA2440800AF2E7E /* Components */,
+				E589FDE92AA23CDD00AF2E7E /* Supports */,
 			);
 			path = HealthCare;
+			sourceTree = "<group>";
+		};
+		E589FDE62AA23CAC00AF2E7E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E589FDEA2AA2433900AF2E7E /* SignInViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E589FDE72AA23CB900AF2E7E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E589FDEC2AA243C200AF2E7E /* SignInView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E589FDE82AA23CC000AF2E7E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E589FDE92AA23CDD00AF2E7E /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				E589FDD42AA23C9B00AF2E7E /* SceneDelegate.swift */,
+				E589FDD22AA23C9B00AF2E7E /* AppDelegate.swift */,
+				E589FDDD2AA23C9C00AF2E7E /* LaunchScreen.storyboard */,
+				E589FDDB2AA23C9C00AF2E7E /* Assets.xcassets */,
+				E589FDE02AA23C9C00AF2E7E /* Info.plist */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		E589FDEE2AA2440800AF2E7E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E589FDF02AA2443400AF2E7E /* SignIn */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E589FDF02AA2443400AF2E7E /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				E589FDE62AA23CAC00AF2E7E /* Controllers */,
+				E589FDE72AA23CB900AF2E7E /* Views */,
+				E589FDE82AA23CC000AF2E7E /* Models */,
+			);
+			path = SignIn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +146,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E589FDE32AA23C9C00AF2E7E /* Build configuration list for PBXNativeTarget "HealthCare" */;
 			buildPhases = (
+				A93270482817A1D29BA9E89A /* [CP] Check Pods Manifest.lock */,
 				E589FDCB2AA23C9B00AF2E7E /* Sources */,
 				E589FDCC2AA23C9B00AF2E7E /* Frameworks */,
 				E589FDCD2AA23C9B00AF2E7E /* Resources */,
@@ -127,34 +200,51 @@
 			files = (
 				E589FDDF2AA23C9C00AF2E7E /* LaunchScreen.storyboard in Resources */,
 				E589FDDC2AA23C9C00AF2E7E /* Assets.xcassets in Resources */,
-				E589FDDA2AA23C9B00AF2E7E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A93270482817A1D29BA9E89A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HealthCare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E589FDCB2AA23C9B00AF2E7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E589FDD72AA23C9B00AF2E7E /* ViewController.swift in Sources */,
 				E589FDD32AA23C9B00AF2E7E /* AppDelegate.swift in Sources */,
 				E589FDD52AA23C9B00AF2E7E /* SceneDelegate.swift in Sources */,
+				E589FDED2AA243C200AF2E7E /* SignInView.swift in Sources */,
+				E589FDEB2AA2433900AF2E7E /* SignInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E589FDD82AA23C9B00AF2E7E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E589FDD92AA23C9B00AF2E7E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E589FDDD2AA23C9C00AF2E7E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,16 +372,17 @@
 		};
 		E589FDE42AA23C9C00AF2E7E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F79EECC1C8898AE765A6D039 /* Pods-HealthCare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HealthCare/Info.plist;
+				INFOPLIST_FILE = HealthCare/Supports/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,16 +400,17 @@
 		};
 		E589FDE52AA23C9C00AF2E7E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FE5B337E346BB28373942D3 /* Pods-HealthCare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HealthCare/Info.plist;
+				INFOPLIST_FILE = HealthCare/Supports/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
