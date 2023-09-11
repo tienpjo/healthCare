@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SignInViewController:UIViewController,UITextFieldDelegate{
+class SignInViewController:BaseViewController,UITextFieldDelegate{
      
     private let logoImage: UIImageView = {
         let imageView = UIImageView()
@@ -41,18 +41,20 @@ class SignInViewController:UIViewController,UITextFieldDelegate{
         return passwordTextField
     }()
     
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    override func initialize() {
+        super.initialize()
         view.backgroundColor = .white
         setupViewLogoImageView()
         setupEmailTextField()
         setupPasswordTextField()
     }
     
+//    override func init() {
+//
+//    }
+    
     private func setupViewLogoImageView(){
-        let stack = UIStackView()
+       // let stack = UIStackView()
 //        stack.backgroundColor = .red
 //        stack.axis = NSLayoutConstraint.Axis.vertical
 //        stack.alignment = UIStackView.Alignment.center
