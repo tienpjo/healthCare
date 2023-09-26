@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		6607225449B82C9768827BC4 /* libPods-HealthCare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DDA630A62A9E2B0A34A8CD /* libPods-HealthCare.a */; };
+		E5427FE82AC1C2FF00963C53 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5427FE72AC1C2FF00963C53 /* Dimension.swift */; };
 		E551E38D2AADF4E600B4DC96 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E551E38C2AADF4E600B4DC96 /* BaseViewController.swift */; };
 		E551E38F2AADF89200B4DC96 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E551E38E2AADF89200B4DC96 /* BaseView.swift */; };
 		E551E3922AADF8BB00B4DC96 /* TextFieldWithTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E551E3912AADF8BB00B4DC96 /* TextFieldWithTitle.swift */; };
 		E551E3952AAE0F8900B4DC96 /* ScaleUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E551E3942AAE0F8900B4DC96 /* ScaleUI.swift */; };
+		E571C35A2AC313F7001FD80E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E571C3592AC313F7001FD80E /* Theme.swift */; };
 		E589FDD32AA23C9B00AF2E7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E589FDD22AA23C9B00AF2E7E /* AppDelegate.swift */; };
 		E589FDD52AA23C9B00AF2E7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E589FDD42AA23C9B00AF2E7E /* SceneDelegate.swift */; };
 		E589FDDC2AA23C9C00AF2E7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E589FDDB2AA23C9C00AF2E7E /* Assets.xcassets */; };
@@ -23,10 +25,12 @@
 /* Begin PBXFileReference section */
 		32DDA630A62A9E2B0A34A8CD /* libPods-HealthCare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HealthCare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FE5B337E346BB28373942D3 /* Pods-HealthCare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthCare.release.xcconfig"; path = "Target Support Files/Pods-HealthCare/Pods-HealthCare.release.xcconfig"; sourceTree = "<group>"; };
+		E5427FE72AC1C2FF00963C53 /* Dimension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dimension.swift; sourceTree = "<group>"; };
 		E551E38C2AADF4E600B4DC96 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		E551E38E2AADF89200B4DC96 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		E551E3912AADF8BB00B4DC96 /* TextFieldWithTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldWithTitle.swift; sourceTree = "<group>"; };
 		E551E3942AAE0F8900B4DC96 /* ScaleUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleUI.swift; sourceTree = "<group>"; };
+		E571C3592AC313F7001FD80E /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		E589FDCF2AA23C9B00AF2E7E /* HealthCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E589FDD22AA23C9B00AF2E7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E589FDD42AA23C9B00AF2E7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,7 +83,6 @@
 		E551E38B2AADF4C600B4DC96 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				E551E3902AADF89E00B4DC96 /* New Group */,
 				E551E38C2AADF4E600B4DC96 /* BaseViewController.swift */,
 				E551E38E2AADF89200B4DC96 /* BaseView.swift */,
 				E551E3912AADF8BB00B4DC96 /* TextFieldWithTitle.swift */,
@@ -87,17 +90,12 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
-		E551E3902AADF89E00B4DC96 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
 		E551E3932AAE0F6B00B4DC96 /* Style */ = {
 			isa = PBXGroup;
 			children = (
 				E551E3942AAE0F8900B4DC96 /* ScaleUI.swift */,
+				E5427FE72AC1C2FF00963C53 /* Dimension.swift */,
+				E571C3592AC313F7001FD80E /* Theme.swift */,
 			);
 			path = Style;
 			sourceTree = "<group>";
@@ -281,10 +279,12 @@
 			files = (
 				E551E38D2AADF4E600B4DC96 /* BaseViewController.swift in Sources */,
 				E551E3922AADF8BB00B4DC96 /* TextFieldWithTitle.swift in Sources */,
+				E5427FE82AC1C2FF00963C53 /* Dimension.swift in Sources */,
 				E589FDD32AA23C9B00AF2E7E /* AppDelegate.swift in Sources */,
 				E589FDD52AA23C9B00AF2E7E /* SceneDelegate.swift in Sources */,
 				E551E38F2AADF89200B4DC96 /* BaseView.swift in Sources */,
 				E589FDED2AA243C200AF2E7E /* SignInView.swift in Sources */,
+				E571C35A2AC313F7001FD80E /* Theme.swift in Sources */,
 				E551E3952AAE0F8900B4DC96 /* ScaleUI.swift in Sources */,
 				E589FDEB2AA2433900AF2E7E /* SignInViewController.swift in Sources */,
 			);
